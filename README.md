@@ -1,0 +1,79 @@
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg)](https://flask.palletsprojects.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/yourusername/news-authenticator/graphs/commit-activity)
+
+<div align="center">
+  <img src="static/logo.png" alt="News Authenticator Logo" width="200"/>
+  
+  🔍 *Verify news authenticity with the power of AI*
+</div>
+
+## 🌟 Features
+
+- 🤖 AI-powered news verification using advanced LLM models
+- 📊 Real-time news fetching using Google News API
+- 🔍 Comprehensive fact-checking through multiple sources
+- 🌐 User-friendly web interface
+- ⚡ Fast and efficient processing
+- 📱 Responsive design for all devices
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.9 or higher
+- pip package manager
+
+### Installation
+
+1. Clone the repository
+```bash
+https://github.com/ShreyashDabhade/News-Authenticator.git
+cd news-authenticator
+```
+
+2. Create and activate virtual environment
+```bash
+python -m venv .venv
+.venv\Scripts\activate  # Windows
+```
+
+3. Install dependencies
+```bash
+ pip install flask beautifulsoup4 requests crewai GoogleNews crewai-tools pydantic
+
+```
+also make sure you have [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) installed
+
+4. Run the application
+```bash
+python app.py
+```
+
+Visit `http://localhost:5000` in your browser to start using the application.
+
+## Technical Stack
+
+- **Backend**: Flask (Python)
+- **AI/ML**: 
+  - Google Gemini AI
+  - CrewAI Framework
+- **News API**: Google News API
+- **Search**: Serper Dev API
+
+## How It Works
+
+1. User inputs a news article or statement
+2. System fetches related news from multiple sources
+3. AI agents analyze and cross-reference the information
+4. Results are presented with confidence scores and supporting evidence
+
+
+## 🙏 Acknowledgments
+
+- Google Gemini AI for providing the AI capabilities
+- CrewAI framework for AI agent orchestration
+- Google News API for real-time news data
+
+---
