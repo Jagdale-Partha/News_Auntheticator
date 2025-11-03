@@ -21,7 +21,7 @@
 ## 🚀 Getting Started
 
 ### Prerequisites
-
+- Gemini and Serper API keys
 - Python 3.9 or higher
 - pip package manager
 
