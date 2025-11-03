@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Verification Result</title>
+    <link rel="stylesheet" href="/static/style2.css">
+</head>
+<body>
+    
+    <div class="container">
+        <center><img src="/static/logo.png"></center>
+        <h1>News Verification Result</h1>
+        <div class="result-content">
+            <div class="result-header">Analysis Report</div>
+            {{ verdict | safe }}
+        </div>
+        <div style="text-align: center;">
+            <a href="/" class="back-button">Verify Another News Article</a>
+        </div>
+        <div class="footer">
+            Powered by AI News Verification System
+        </div>
+    </div>
+</body>
+</html>
